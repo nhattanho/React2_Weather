@@ -25,6 +25,19 @@ main {
   padding: 25px;
 }
 
+.heading {
+  margin-top: -20px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  text-shadow: azure;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.9);
+  color: #d1eefafa
+}
+
 .search-box {
   width: 50%;
   margin: 10px 0 40px 350px;
@@ -61,7 +74,7 @@ main {
   font-size: 32px;
   font-weight: 500;
   text-align: center;
-  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  text-shadow: 5px 3px rgba(50, 50, 70, 0.5);
 }
 
 .location-box .date {
@@ -96,10 +109,11 @@ main {
 }
 
 .weather-box .weather {
+  font-style: italic;
   color: #FFF;
   font-size: 48px;
   font-weight: 700;
-  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.9);
 }
 
 @media (max-width: 770px) {
